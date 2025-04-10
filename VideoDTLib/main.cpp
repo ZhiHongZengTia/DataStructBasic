@@ -38,7 +38,6 @@
 using namespace std;
 using namespace DTLib;
 
-
 class Test1: public Object
 {
 public:
@@ -57,7 +56,6 @@ public:
     Test(){cout<<"test"<<endl; }
     ~Test(){ cout<<"~Test"<<endl; }
 };
-
 
 
 void TestSeqList();
